@@ -1,1 +1,2 @@
-I am working now
+#!/bin/bash
+pwd
