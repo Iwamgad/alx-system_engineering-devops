@@ -11,3 +11,7 @@ Task 7  a Bash script that displays the time for 12 hours and 59 minutes.
 Task 8  a Bash script that displays the content of the current directory.
 Task 9  a Bash script that gives you information about the school file.
 Task 10 a Bash script that displays numbers from 1 to 100 and FizzBuzz, Fizz and Buzz at times.
+Task 11 a Bash script that displays the content of the file /etc/passwd.
+Task 12 a Bash script that displays the content of the file /etc/passwd, using the while loop + IFS.
+Task 13 a Bash script that displays the visitor IP along with the HTTP status code from the Apache log file.
+Task 14 a Bash script that displays the visitor IP along with the HTTP status code from the Apache log file.
