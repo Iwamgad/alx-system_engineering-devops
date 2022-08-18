@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School"
+# but bad luck at the 4th loop and good luck at the 5th loop
+
+declare -i index=0
+while (( index < 10 ))
+do
+    if ((index == 3))
+    then
+	echo "bad luck"
+    elif ((index == 7))
+    then
+	echo "good luck"
+    else
+	echo "Best School"
+    fi
+      ((index++))
+done

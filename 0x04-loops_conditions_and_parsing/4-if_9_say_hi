@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times using while loop and if condition
+
+declare -i index=0
+while (( index < 10 ))
+do
+    echo "Holberton School"
+    if (( index == 8 ))
+	then
+	echo "Hi"
+	fi
+    (( index++ ))
+done

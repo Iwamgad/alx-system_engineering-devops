@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# This script is displaying  numbers from 1 to 20
+# but bad luck from China for 4th loop and bad luck from Japan for 9th loop
+# and bad luck from Italy at the 17th loop
+
+declare -i index=1
+while (( index < 21 ))
+do
+   echo "$index"
+   case "$index" in
+   4)
+   	echo "bad luck from China"
+	;;
+   9)
+	echo "bad luck from Japan"
+	;;
+   17)
+        echo "bad luck from Italy"
+	;;
+   esac
+   ((index++))
+done
