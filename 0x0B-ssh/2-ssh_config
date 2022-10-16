@@ -1,0 +1,6 @@
+Host 3.233.234.234
+    HostName 32154-web-01
+	    User ubuntu
+	    ForwardAgent yes
+    IdentitiesOnly yes
+	    IdentityFile ~/.ssh/school
