@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# 4-not_found_page_404 so that it configures a brand new Ubuntu machine to 
+# 4-not_found_page_404 so that it configures a brand new Ubuntu machine to
 # the requirements asked in this task
 
 apt-get update
