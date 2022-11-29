@@ -1,14 +1,15 @@
 #!/usr/bin/python3
 """
-This is a function that queries the Reddit API and returns a list containing the titles 
-of all hot articles for a given subreddit 
+This is a function that queries the Reddit API and
+returns a list containing the titles of all hot articles
+for a given subreddit
 """
 
 import requests
 
 
 def recurse(subreddit, hot_list=[], after=None):
-    """Returns a list containing the titles of all hot 
+    """Returns a list containing the titles of all hot
     articles for a given subreddit
     """
     if subreddit is None or type(subreddit) is not str:
