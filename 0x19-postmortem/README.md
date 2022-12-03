@@ -1,3 +1,5 @@
+0x19. Postmortem
+
 # Issue Summary
 ### On 24/10/2022 7:00 pm PST, I was unable to ssh into my web_server_2 from the provided sandbox terminal, due to this I was not able to do my tasks at ease. The root cause of the outage was when configuring the webserver I forgot to generate a public/private key at my sandbox terminal so I can put the public key inside my server to grant permission to ssh.   
 # Timeline
